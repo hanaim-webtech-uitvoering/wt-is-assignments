@@ -1,5 +1,5 @@
 {
-  "name": "assignments",
+  "name": "hanaim/assignments",
   "description": "assignments for wtis",
   "require-dev": {
     "ext-curl": "*",
