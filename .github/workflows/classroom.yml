@@ -1,16 +1,12 @@
-name: CI
+name: GitHub Classroom Workflow
 
 on: [push]
 
 jobs:
-  build-test:
+  build:
+    name: Autograding
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v2
       - uses: php-actions/composer@v5 # or alternative dependency management
-      - name: PHPUnit Tests
-        uses: php-actions/phpunit@v2
-        with:
-          bootstrap: vendor/autoload.php
-          args: ./tests
+      - uses: education/autograding@v1

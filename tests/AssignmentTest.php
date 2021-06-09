@@ -3,7 +3,7 @@ use PHPUnit\Framework\TestCase;
 
 require('src/assignment.php');
 
-final class Assignment extends TestCase
+final class AssignmentTest extends TestCase
 {
     public function testCanBeCreatedFromValidEmailAddress(): void
     {
