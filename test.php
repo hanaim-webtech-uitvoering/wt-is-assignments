@@ -4,3 +4,4 @@ function bla () {
 }
 
 bla();
+?>
