@@ -1,0 +1,16 @@
+{
+  "name": "hanaim/assignments",
+  "description": "assignments for wtis",
+  "require-dev": {
+    "ext-curl": "*",
+    "ext-dom": "*",
+    "ext-json": "*",
+    "ext-sqlite3": "*",
+    "phpunit/phpunit": "9.*"
+  },
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  }
+}
