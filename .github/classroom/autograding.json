@@ -2,8 +2,8 @@
   "tests": [
     {
       "name": "Assignment 1",
-      "setup": "./vendor/bin/phpunit ./tests",
-      "run": "php test.php",
+      "setup": "",
+      "run": "./vendor/bin/phpunit ./tests",
       "input": "",
       "output": "",
       "comparison": "included",
