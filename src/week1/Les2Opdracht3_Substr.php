@@ -9,7 +9,7 @@ Maak nu zelf een functie die:
 
 function last3Characters($string) {
     // Schrijf hier je broncode
-    // START_OPDRACHT
+    //START
     return substr($string, strlen($string)-3, strlen($string));
-    // END_OPDRACHT
+    //END
 }
