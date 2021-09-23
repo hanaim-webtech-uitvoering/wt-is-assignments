@@ -84,24 +84,9 @@ Schrijf ook een functie die het plaatje retourneert in HTML (💡: vervang het `
 
 function filmTabel($filmArray) : string{
     // Schrijf hier je broncode
-    //START
-    $html;
-    $html = "<table>";
-    $html .= "<tr>";
-    $html .= "<td>$filmArray[title]</td>";
-    $html .= "<td>$filmArray[year]</td>";
-    $html .= "<td>$filmArray[director]</td>";
-    $html .= "<td>{$filmArray["stars"][0]}, {$filmArray["stars"][1]}</td>";
-    $html .= "</tr>";
-    $html .= "</table>";
-    return $html;
-    //END
 }
 
 
 function filmPlaatje($filmArray) : string{
     // Schrijf hier je broncode
-    //START
-    return "<img src=\"{$filmArray['imageURL']}\" alt=\"Poster\">";
-    //END
 }

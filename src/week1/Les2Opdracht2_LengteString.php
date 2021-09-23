@@ -12,8 +12,4 @@ Schrijf nu een functie die voldoet aan de volgende eisen. De functie:
 
 function printOutStringAndLength($input) {
     // Schrijf hier je broncode
-    //START
-    $len = strlen($input);
-    echo "<h1>$input: <em>$len</em></h1>";
-    //END
 }
