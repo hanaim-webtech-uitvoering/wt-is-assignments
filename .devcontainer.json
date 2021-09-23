@@ -1,8 +1,0 @@
-{
-  "name": "PHP",
-  "dockerComposeFile": ["docker-compose.yml"],
-  "service": "assignments",
-  "workspaceFolder": "/srv/assignments",
-  "shutdownAction": "none",
-  "extensions": ["sleistner.vscode-fileutils", "timonwong.shellcheck"]
-}
