@@ -38,10 +38,11 @@ Dus bijvoorbeeld bij de test van Les5 ziet dat er zo uit:
 ```php
 final class Les5Opdracht1Test extends TestCase
 {
-    function testFilmTabel () {
-
+    function setUp():void {
         $this->markTestSkipped('Nog niet bezig met deze les.');
+    }
 
+    function testFilmTabel () {
         $film = [
             'title' => 'Black Panther',
 ```
@@ -51,10 +52,11 @@ En dat moet je dan aanpassen door een comment er van te maken of de regel weg te
 ```php
 final class Les5Opdracht1Test extends TestCase
 {
-    function testFilmTabel () {
-
+    function setUp():void {
         // $this->markTestSkipped('Nog niet bezig met deze les.');
-
+    }
+    
+    function testFilmTabel () {
         $film = [
             'title' => 'Black Panther',
 ```
