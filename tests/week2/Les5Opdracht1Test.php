@@ -7,7 +7,7 @@ final class Les5Opdracht1Test extends TestCase
 {
     function testFilmTabel () {
 
-        $this->markTestSkipped('Nog niet tijd.');
+        $this->markTestSkipped('Nog niet bezig met deze les.');
 
         $film = [
             'title' => 'Black Panther',
@@ -33,7 +33,7 @@ final class Les5Opdracht1Test extends TestCase
     }
 
     function testFilmPlaatje () {
-        $this->markTestSkipped('Nog niet tijd.');
+        $this->markTestSkipped('Nog niet bezig met deze les.');
         
         $film = [
             'title' => 'Black Panther',
