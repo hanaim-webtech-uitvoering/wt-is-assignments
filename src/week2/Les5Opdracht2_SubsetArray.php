@@ -34,6 +34,3 @@ $films = [
   ]
 ];
 
-//START
-$subset_films = array_slice($films, 2, 2);
-//END

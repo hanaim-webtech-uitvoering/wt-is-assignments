@@ -18,17 +18,4 @@
 
 function minutenNaarDuur($duration) {
   // Schrijf hier je broncode
-  //START
-  $uren = floor($duration / 60);
-  $minuten = $duration % 60;
-  $urenString = "$uren";
-  if ($uren < 10) {
-    $urenString = "0$uren";
-  }
-  $minutenString = "$minuten";
-  if ($minuten < 10) {
-    $minutenString = "0$minuten";
-  }
-  return "$urenString:$minutenString";
-  //END
 }

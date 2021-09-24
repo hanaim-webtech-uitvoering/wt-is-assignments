@@ -27,13 +27,3 @@ Zorg er dus voor dat in het overzicht:
 
 */
 
-//START
-function enkeleFilmNaarHTML ($film) {
-    return <<<EOF
-    <article aria-label="Film poster">
-        <h1>{$film['title']}</h1>
-        <img src="{$film['imageURL']}" alt="Poster for {$film['title']}">
-    </article>
-EOF;
-}
-//END
