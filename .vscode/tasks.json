@@ -9,7 +9,7 @@
             "command": "docker run -v $(pwd):/app --platform linux/amd64 --rm jitesoft/phpunit phpunit --configuration phpunit.xml",
             "windows": {
                 "command": "docker run -v ${pwd}:/app --platform linux/amd64 --rm jitesoft/phpunit phpunit --configuration phpunit.xml"
-            },
+             }, 
             "problemMatcher": [],
             "group": {
                 "kind": "build",
